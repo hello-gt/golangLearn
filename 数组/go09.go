@@ -11,4 +11,8 @@ func main() {
 		fmt.Printf("The length of slice is %d\n", len(slice1))
 	}
 
+	for i := 0; i < len(slice1); i++ {
+		fmt.Printf("Slice at %d is %d\n", i, slice1[i])
+	}
+
 }
