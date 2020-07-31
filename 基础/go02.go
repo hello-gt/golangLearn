@@ -9,4 +9,5 @@ func main() {
 	fmt.Println(a)
 	var b byte = '在'
 	fmt.Println(b)
+
 }
