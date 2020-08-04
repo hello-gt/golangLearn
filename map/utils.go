@@ -1,4 +1,4 @@
-package map
+package main
 
 //定义一个变量
 
