@@ -14,4 +14,5 @@ func main() {
 	}
 	fmt.Println(num)
 	fmt.Println(zs)
+	fmt.Println(zs)
 }
