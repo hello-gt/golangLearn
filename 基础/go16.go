@@ -1,8 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
+
+	temp := time.Now().Unix()
+
+	fmt.Println(temp)
+
 	var num int = 30
 
 	for i := 1; i < num; i++ {
