@@ -26,6 +26,7 @@ func main() {
 		}
 
 		fmt.Printf("你还有%v次机会\n", num-i)
+
 	}
 
 }
