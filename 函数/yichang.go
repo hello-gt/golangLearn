@@ -7,6 +7,8 @@ func test() {
 		err := recover()
 		if err != nil {
 			fmt.Println(err)
+		} else {
+			fmt.Println("无问题")
 		}
 	}()
 	num := 10
