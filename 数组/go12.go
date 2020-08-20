@@ -30,8 +30,12 @@ func main() {
 		fmt.Scanln(&temp[i])
 	}
 
-	for i := 0; i < len(temp); i++ {
-		fmt.Printf("输入第 %v 个数是 %v", i, temp[i])
+	// for i := 0; i < len(temp); i++ {
+	// 	fmt.Printf("输入第 %v 个数是 %v", i, temp[i])
+	// }
+
+	for index, value := range temp {
+		fmt.Printf("输入第 %v 个数是 %v\n", index, value)
 	}
 
 }
