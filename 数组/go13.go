@@ -20,14 +20,20 @@ func main() {
 
 	var max byte
 	var xiabiao int
+	var res int
 	for index, value := range arr {
 		if value > max {
 			max = value
 			xiabiao = index
 		}
+		res += int(value)
 	}
 	fmt.Printf("%c\n", max)
 	// fmt.Println(max)
 	fmt.Println(xiabiao)
+	fmt.Println(res)
+	// var jun float64
+	jun := float64(res) / float64(len(arr))
+	fmt.Println(jun)
 
 }
