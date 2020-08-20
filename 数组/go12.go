@@ -16,14 +16,19 @@ func main() {
 
 	var temp [3]int
 
-	fmt.Println("输入第一个数：")
-	fmt.Scanln(&temp[0])
+	// fmt.Println("输入第一个数：")
+	// fmt.Scanln(&temp[0])
 
-	fmt.Println("输入第2个数：")
-	fmt.Scanln(&temp[1])
+	// fmt.Println("输入第2个数：")
+	// fmt.Scanln(&temp[1])
 
-	fmt.Println("输入第3个数：")
-	fmt.Scanln(&temp[2])
+	// fmt.Println("输入第3个数：")
+	// fmt.Scanln(&temp[2])
+
+	for i := 0; i < len(temp); i++ {
+		fmt.Printf("输入第 %v 个数：", i)
+		fmt.Scanln(&temp[i])
+	}
 
 	for i := 0; i < len(temp); i++ {
 		fmt.Printf("输入第 %v 个数是 %v", i, temp[i])
