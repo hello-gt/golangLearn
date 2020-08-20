@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+)
 
 func main() {
 	var arr [26]byte
@@ -35,5 +38,21 @@ func main() {
 	// var jun float64
 	jun := float64(res) / float64(len(arr))
 	fmt.Println(jun)
+
+	var intArr [5]int
+	for i := 0; i < len(intArr); i++ {
+		intArr[i] = rand.Intn(100)
+	}
+	fmt.Println(intArr)
+
+	//切片
+
+	arrTemp := [6]int{1, 2, 4, 5, 6, 8}
+	fmt.Println(arrTemp)
+
+	arrTest := arrTemp[1:3]
+	fmt.Println(arrTest)
+	fmt.Println(len(arrTest))
+	fmt.Println(cap(arrTest)) //容量是长度减一
 
 }
