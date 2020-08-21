@@ -55,4 +55,18 @@ func main() {
 	fmt.Println(len(arrTest))
 	fmt.Println(cap(arrTest)) //容量是长度减一
 
+	arrTest[1] = 3
+	fmt.Println(arrTemp)
+
+	//切片二
+
+	var sliceTemp []int = make([]int, 5, 5)
+	sliceTemp[0] = 1
+	sliceTemp[1] = 2
+	sliceTemp[2] = 3
+	sliceTemp[3] = 44
+	fmt.Println()
+	fmt.Println(sliceTemp)
+	fmt.Println(cap(sliceTemp))
+	fmt.Println(&sliceTemp)
 }
