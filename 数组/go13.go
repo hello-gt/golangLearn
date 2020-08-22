@@ -69,4 +69,6 @@ func main() {
 	fmt.Println(sliceTemp)
 	fmt.Println(cap(sliceTemp))
 	fmt.Println(&sliceTemp)
+
+	fmt.Fprintln()
 }
